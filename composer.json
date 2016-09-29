@@ -1,13 +1,13 @@
 {
 	"name": "eye-sports/agreements",
 	"description": "Repository of ( business ) interfaces.",
-	"keywords": [ "Lionare", "Agreements", "Interfaces", "Abstract classes" ],
+	"keywords": [ "Eye-sports", "Agreements", "Interfaces", "Abstract classes" ],
 	"license": "MIT",
 	"type": "agreements",
 	"authors": [
 		{
 			"name": "Aron Wouters",
-			"email": "lionar@mail.com",
+			"email": "eye-sports@mail.com",
 			"role": "Developer"
 		}
 	],

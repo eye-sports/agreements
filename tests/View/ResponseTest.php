@@ -1,6 +1,6 @@
 <?php
 
-namespace Response\Tests;
+namespace View\Tests;
 
 use Mockery;
 use Testing\TestCase;
@@ -11,8 +11,8 @@ class ResponseTest extends TestCase
 
 	public function setUp ( )
 	{
-		$map = $this->map = Mockery::mock ( 'Support\\Facades\\Response\\Map' );
-		$this->respond = Mockery::mock ( 'Response\\Responder[]', array ( $map ) );
+		$map = $this->map = Mockery::mock ( 'Facades\\View\\Map' );
+		$this->respond = Mockery::mock ( 'View\\Responder[]', array ( $map ) );
 	}
 
 	/**

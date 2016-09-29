@@ -1,9 +1,9 @@
 <?php
 
-namespace Response;
+namespace View;
 
 use InvalidArgumentException;
-use Support\Facades\Response\Map;
+use Facades\View\Map;
 
 abstract class Responder
 {
