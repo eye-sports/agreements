@@ -3,7 +3,7 @@
 namespace Agreed\View;
 
 use InvalidArgumentException;
-use Facades\View\Map;
+use View\Map;
 
 abstract class Responder
 {
